@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BirthdayGreeting from './components/BirthdayGreeting';
-import Surprise from './components/Surprise';
-import Message from './components/Message';
+import BirthdayGreeting from './components/BirthdayGreeting.tsx';
+import Surprise from './components/Surprise.tsx';
+import Message from './components/Message.tsx';
 
 function App() {
   return (
